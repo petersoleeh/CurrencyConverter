@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+    
+</head>
+<body> 
+    <!-- Header -->
+    <div class="container">      
+        <h1 class="header"><img src="assets/images/logo2.png" alt="Header-logo">Curreny Converter</h1>
+    </div> 
+
+    <!-- Input section -->
+    <main>
+        <section class="input">
+            <label for="amount">Enter Amount</label>
+            <input type="number" min="1" value="1" placeholder="Enter Amount">
+
+            <label for="currency_from">from</label>
+            <select name="currency_from" id="currency_from"></select>
+
+            <label for="currency_to">To</label>
+            <select name="currency_to" id="currency_to"></select>
+
+            <button class="convert">Convert</button>
+
+        </section>
+
+    <!-- Output Section -->
+        <section class="output">
+            <input id="converted_amount" type="text" disabled>
+
+        </section>
+
+
+    </main>
+
+
+
+
+</body>
+</html>
